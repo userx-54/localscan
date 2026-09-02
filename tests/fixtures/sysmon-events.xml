@@ -1,0 +1,58 @@
+<Events xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>1</EventID>
+      <EventRecordID>8101</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <TimeCreated SystemTime="2026-01-02T03:04:06.000Z" />
+    </System>
+    <EventData>
+      <Data Name="ProcessGuid">{11111111-1111-1111-1111-111111111111}</Data>
+      <Data Name="ProcessId">4242</Data>
+      <Data Name="Image">C:\MalwareAnalysis\uploads\invented-sample.exe</Data>
+      <Data Name="CommandLine">invented-sample.exe --safe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>3</EventID>
+      <EventRecordID>8102</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <TimeCreated SystemTime="2026-01-02T03:04:07.000Z" />
+    </System>
+    <EventData>
+      <Data Name="ProcessGuid">{11111111-1111-1111-1111-111111111111}</Data>
+      <Data Name="DestinationIp">198.51.100.42</Data>
+      <Data Name="DestinationPort">443</Data>
+      <Data Name="Protocol">tcp</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>11</EventID>
+      <EventRecordID>8103</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <TimeCreated SystemTime="2026-01-02T03:04:08.000Z" />
+    </System>
+    <EventData>
+      <Data Name="ProcessGuid">{11111111-1111-1111-1111-111111111111}</Data>
+      <Data Name="TargetFilename">C:\MalwareAnalysis\results\invented-output.bin</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>22</EventID>
+      <EventRecordID>8104</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <TimeCreated SystemTime="2026-01-02T03:04:09.000Z" />
+    </System>
+    <EventData>
+      <Data Name="ProcessGuid">{11111111-1111-1111-1111-111111111111}</Data>
+      <Data Name="QueryName">sample.invalid.test</Data>
+    </EventData>
+  </Event>
+</Events>

@@ -1,0 +1,7 @@
+# Web server + monitoring (LocalScan)
+flask>=3.0.0
+psutil>=5.9.0
+
+# Signature analysis (DefenderCheck)
+pefile>=2023.2.7
+tqdm>=4.64.0
