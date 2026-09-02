@@ -1,0 +1,15 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Windows Defender" />
+    <EventID>1116</EventID>
+    <EventRecordID>7301</EventRecordID>
+    <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+    <TimeCreated SystemTime="2026-01-02T03:04:05.000Z" />
+  </System>
+  <EventData>
+    <Data Name="Threat Name">Test:Benign.Sample</Data>
+    <Data Name="Severity Name">Moderate</Data>
+    <Data Name="Path">C:\MalwareAnalysis\uploads\invented-sample.exe</Data>
+    <Data Name="Process Name">C:\MalwareAnalysis\uploads\invented-sample.exe</Data>
+  </EventData>
+</Event>
